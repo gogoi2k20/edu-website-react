@@ -27,7 +27,7 @@ const App = () => {
         <Title subTitle='Contact Us' title='Get in Touch'/>
         <Contact/>
         <Footer/>
-        {/* <VideoPlayer /> */}
+        <VideoPlayer playState={playState} setPlayState={setPlayState}/>
       </div>
     </>
   )

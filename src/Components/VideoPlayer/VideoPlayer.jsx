@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useRef} from 'react'
 import './VideoPlayer.css'
 import video from '../../assets/campus-video.mp4'
 
